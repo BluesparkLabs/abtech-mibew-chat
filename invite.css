@@ -111,7 +111,6 @@
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   text-decoration: none;
   cursor: pointer;
-  /* Primary button style */
   color: #fff;
   background-color: #880029;
   border-color: #880029;
@@ -123,7 +122,6 @@
   border-color: #af1342;
 }
 
-/* responsive design for mobile devices */
 @media only screen and (max-width: 500px) {
   #mibew-invitation-popup {
     max-width: 100%;
@@ -138,28 +136,9 @@
   }
 }
 
-/* additional trick for desktops */
 @media (min-width: 501px) {
   #mibew-invitation-popup {
     width: 400px;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .mibew-chat-wrapper {
-    overflow: hidden !important;
-    height: 100vh;
-    width: 100vw;
-    left: 0;
-    top: 0;
-    bottom: 0 !important;
-    max-width: 100vw;
-    max-height: 100vh;
-  }
-  .mibew-chat-frame-toggle-on {
-    bottom: initial !important;
-    top: 23px !important;
-    right: .8rem !important;
   }
 }
 
