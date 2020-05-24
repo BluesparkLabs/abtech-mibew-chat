@@ -1,4 +1,4 @@
-/* basic settings */
+// basic settings
 html,
 body {
   height: 100%;
@@ -41,18 +41,18 @@ img {
   visibility: hidden;
 }
 
-/* layout of chat */
+// layout of chat
 #top {
   position: relative;
   padding: 5px 14px;
   background: #ffffff url("images/topbg.gif") scroll repeat-x 0 100%;
-  _zoom: 1; /* IE6 fix */
+  _zoom: 1; // IE6 fix
 }
 #chat-header {
   position: relative;
   padding: 0 10px;
   background: #f1f2f2 url("images/chatheaderbg.gif") scroll repeat-x 0 0;
-  _zoom: 1; /* IE6 fix */
+  _zoom: 1; // IE6 fix
 }
 #chat {
   padding: 0 10px;
@@ -77,13 +77,13 @@ img {
   color: #999999;
 }
 
-/* chat header (#chat-header) */
+// chat header (#chat-header)
 #chat-header .background-center {
   background: #ffffff url("images/chatheaderbgc.gif") scroll repeat-x 0 0;
 }
 #chat-header .background-left {
   background: transparent url("images/chatheaderbgl.gif") scroll no-repeat 0 0;
-  _zoom: 1; /* IE6 fix */
+  _zoom: 1; // IE6 fix
 }
 #chat-header .background-right {
   height: 42px;
@@ -106,7 +106,7 @@ img {
   text-align: right;
 }
 
-/* common controls */
+// common controls
 #controls-region {
   padding-right: 25px;
 }
@@ -220,7 +220,7 @@ a:hover .image-close-window {
   padding-right: 10px;
 }
 
-/* main chat region (#chat) */
+// main chat region (#chat)
 #chat .background-left {
   background: #ffffff url("images/chatbgl.gif") scroll repeat-y 0 0;
 }
@@ -237,7 +237,7 @@ a:hover .image-close-window {
   position: relative;
   padding: 0 4px 40px;
   background: transparent url("images/sdwbgr.png") scroll no-repeat 100% 100%;
-  _zoom: 1; /* IE6 fix */
+  _zoom: 1; // IE6 fix
 }
 #status-region {
   position: absolute;
@@ -308,7 +308,7 @@ a:hover .image-close-window {
   color: #000;
 }
 
-/* message area (#message) */
+// message area (#message)
 #message .background-center {
   background: #ffffff url("images/message.png") scroll repeat-x 0 -95px;
 }
@@ -331,10 +331,10 @@ a:hover .image-close-window {
   font-family: Tahoma, sans-serif;
   border: 0 none;
   background: transparent;
-  resize: none; /* disable resize textarea in Google Chrome, Safari and Firefox 4 */
+  resize: none; // disable resize textarea in Google Chrome, Safari and Firefox 4
 }
 
-/* sending message area (#send) */
+// sending message area (#send)
 #post-message {
 }
 #send-message, .submit-button {
@@ -362,22 +362,22 @@ a:hover .image-close-window {
   width: 200px;
 }
 
-/* survey */
+// survey
 #message-survey {
   resize: none;
 }
 
-/* leavy message */
+// leavy message
 #message-leave {
   resize: none;
 }
 
-/* error page (error.tpl) */
+// error page (error.tpl)
 #logo-wrapper {
   position: relative;
   padding: 5px 14px;
   background: #ffffff url("images/logobg.gif") scroll repeat-x 0 100%;
-  _zoom: 1; /* IE6 fix */
+  _zoom: 1; // IE6 fix
 }
 .headers-inwards-wrapper-common {
   background: #ffffff url("images/wndb.gif") scroll repeat-x 0 100%;
@@ -430,7 +430,7 @@ a:hover .image-close-window {
   font-family: Arial, sans-serif;
 }
 
-/* redirection page (redirect.tpl) */
+// redirection page (redirect.tpl)
 .left {
   float: left;
   width: 49%;
@@ -455,7 +455,7 @@ ul li {
   background: transparent url("images/list.gif") scroll no-repeat 0 5px;
 }
 
-/* miscellanea */
+// miscellanea
 .form {
   margin: 0;
   padding: 0;
@@ -486,7 +486,7 @@ ul li {
   left: 250px;
 }
 
-/* invitations */
+// invitations
 #invitation-messages-region {
   height: 150px;
   min-height: 150px;
@@ -523,7 +523,7 @@ ul li {
   color: #000000;
 }
 
-/* confirmation dialogue */
+// confirmation dialogue
 .info-message .visitor {
   color: blue;
 }
@@ -542,7 +542,7 @@ ul li {
   display: inline-block;
 }
 
-/* responsive design for mobile devices */
+// responsive design for mobile devices
 @media only screen and (max-width: 500px) {
   body {
     min-width: auto;
@@ -564,7 +564,7 @@ ul li {
   }
 }
 
-/* additional tricks for desktops */
+// additional tricks for desktops
 @media (min-width: 501px) {
   #footer {
     width: 400px;
