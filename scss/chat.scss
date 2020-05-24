@@ -46,13 +46,11 @@ img {
   position: relative;
   padding: 5px 14px;
   background: #ffffff url("images/topbg.gif") scroll repeat-x 0 100%;
-  _zoom: 1; // IE6 fix
 }
 #chat-header {
   position: relative;
   padding: 0 10px;
   background: #f1f2f2 url("images/chatheaderbg.gif") scroll repeat-x 0 0;
-  _zoom: 1; // IE6 fix
 }
 #chat {
   padding: 0 10px;
@@ -83,7 +81,6 @@ img {
 }
 #chat-header .background-left {
   background: transparent url("images/chatheaderbgl.gif") scroll no-repeat 0 0;
-  _zoom: 1; // IE6 fix
 }
 #chat-header .background-right {
   height: 42px;
@@ -237,7 +234,6 @@ a:hover .image-close-window {
   position: relative;
   padding: 0 4px 40px;
   background: transparent url("images/sdwbgr.png") scroll no-repeat 100% 100%;
-  _zoom: 1; // IE6 fix
 }
 #status-region {
   position: absolute;
@@ -377,7 +373,6 @@ a:hover .image-close-window {
   position: relative;
   padding: 5px 14px;
   background: #ffffff url("images/logobg.gif") scroll repeat-x 0 100%;
-  _zoom: 1; // IE6 fix
 }
 .headers-inwards-wrapper-common {
   background: #ffffff url("images/wndb.gif") scroll repeat-x 0 100%;
