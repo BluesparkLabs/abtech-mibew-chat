@@ -1,10 +1,15 @@
-{{! Logo block}}
-{{> _logo}}
+{{! Header block }}
+<div id="header" class="header--leave-message">
+  {{> _logo}}
+  <a href="javascript:Mibew.Utils.closeChatPopup();" title="{{l10n "Close"}}">
+    <img class="icon-close-window icon-xl" src="{{page.stylePath}}/icons/x.svg" alt="{{l10n "Close"}}" />
+  </a>
+</div>
 
 {{! Header block. Contains description}}
 <div id="headers">
-    <div class="headers-inwards-wrapper-common"><div class="headers-inwards-wrapper-left"><div class="headers-inwards-wrapper-right"><div class="headers-inwards-wrapper-top"><div class="headers-inwards-wrapper-top-left"><div class="headers-inwards-wrapper-top-right"><div class="headers-inwards-wrapper-bottom-left"><div class="headers-inwards-wrapper-bottom-right" id="description-region">
-    </div></div></div></div></div></div></div></div>
+    <div class="messages" id="description-region">
+    </div>
 </div>
 
 {{! Empty container for main content}}

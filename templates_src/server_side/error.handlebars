@@ -3,13 +3,7 @@
 
     {{#override "pageTitle"}}{{l10n "Error"}}{{/override}}
 
-    {{#override "buttons"}}
-        <a href="javascript:window.close();" title="{{l10n 'Close...'}}">
-            <img class="tpl-image image-close-window" src="{{asset "@CurrentStyle/images/free.gif"}}" alt="{{l10n 'Close...'}}" />
-        </a>
-    {{/override}}
-
-    {{#override "content"}}
+    {{#override "message"}}
         {{#if errors}}
             <b>{{l10n "Cannot execute:"}}</b><br/>
             <ul>
