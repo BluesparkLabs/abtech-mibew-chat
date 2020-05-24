@@ -22,7 +22,7 @@ const
   },
   sassConfig = {
     outputStyle: 'expanded',
-    indentWidth: 4,
+    indentWidth: 2,
   },
 
   // Task configuration.
