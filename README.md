@@ -1,4 +1,4 @@
-# A-B Tech Mibew Chat widget style
+# A-B Tech Mibew Chat theme
 
 These custom chat widget styles for Mibew matche the 2020 A-B Tech website
 redesign. The styles are loosly based on the default Mibew chat widget styles
@@ -12,13 +12,14 @@ with the following changes and additions:
 2. Create a directory "abtech" inside `mibew/styles/chats/`.
 3. Download the latest [zipfile] from master branch on Github.
 4. Unzip the contents into `mibew/styles/chats/abtech/`.
-5. In the web browser visit the style preview page at:
-    `/mibew/operator/style/page/preview`  and select "abtech" from the
+5. In the web browser visit the Chat theme preview page at:
+    `/mibew/operator/style/chat/preview`  and select "abtech" from the
     dropdown to confirm it is properly installed.
 6. The "Select a style for your chat windows" dropdown should be set to
     `abtech` on the settings page here: `/mibew/operator/settings`
 7. The "Company logo" field on the settings page should be __left blank__
     because the default works as intended.
+8. Proceed to download and install the [A-B Tech Mibow Invitations theme].
 
 ## Changes from the default mibew chat widget styles
 
@@ -52,3 +53,4 @@ to add more dependencies.
 
 [screenshot]: https://github.com/BluesparkLabs/abtech-mibew-chat/blob/master/screenshots/client_chat.png?raw=true
 [zipfile]: https://github.com/BluesparkLabs/abtech-mibew-chat/archive/master.zip
+[A-B Tech Mibew Invitations theme]: https://github.com/BluesparkLabs/abtech-mibew-invitations
