@@ -3,7 +3,6 @@ html,
 body {
     height: 100%;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -14,31 +13,25 @@ body {
     min-width: 500px;
     background-color: #f1f2f2;
 }
-
 body.rtl {
     text-align: right;
     direction: rtl;
 }
-
 body.invitation {
     min-width: 0;
     min-height: 0;
 }
-
 a {
     text-decoration: underline;
     color: #008ad9;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 img {
     vertical-align: bottom;
     border: 0 none;
 }
-
 .clear {
     clear: both;
     height: 0;
@@ -53,33 +46,26 @@ img {
     position: relative;
     padding: 5px 14px;
     background: #ffffff url("images/topbg.gif") scroll repeat-x 0 100%;
-    _zoom: 1;
-    /* IE6 fix */
+    _zoom: 1; /* IE6 fix */
 }
-
 #chat-header {
     position: relative;
     padding: 0 10px;
     background: #f1f2f2 url("images/chatheaderbg.gif") scroll repeat-x 0 0;
-    _zoom: 1;
-    /* IE6 fix */
+    _zoom: 1; /* IE6 fix */
 }
-
 #chat {
     padding: 0 10px;
     background: #f1f2f2;
 }
-
 #message {
     padding: 0 10px;
     background: #f1f2f2;
 }
-
 #send {
     padding: 0 10px 5px;
     background: #ffffff url("images/bottombg.gif") scroll repeat-x 0 0;
 }
-
 #footer {
     margin: 0 auto;
     padding-top: 5px;
@@ -87,7 +73,6 @@ img {
     text-align: center;
     color: #999999;
 }
-
 #footer a {
     color: #999999;
 }
@@ -96,18 +81,14 @@ img {
 #chat-header .background-center {
     background: #ffffff url("images/chatheaderbgc.gif") scroll repeat-x 0 0;
 }
-
 #chat-header .background-left {
     background: transparent url("images/chatheaderbgl.gif") scroll no-repeat 0 0;
-    _zoom: 1;
-    /* IE6 fix */
+    _zoom: 1; /* IE6 fix */
 }
-
 #chat-header .background-right {
     height: 42px;
     background: transparent url("images/chatheaderbgr.gif") scroll no-repeat 100% 0;
 }
-
 #logo {
     font-weight: normal;
     font-size: 17px;
@@ -115,12 +96,10 @@ img {
     color: #495151;
     padding: 10px 0;
 }
-
 #logo a {
     float: left;
     text-decoration: none;
 }
-
 #page-title {
     float: right;
     margin-top: 5px;
@@ -131,92 +110,71 @@ img {
 #controls-region {
     padding-right: 25px;
 }
-
 .control {
     display: inline-block;
     margin: 15px 0 0 11px;
     cursor: pointer;
     float: right;
 }
-
 .tpl-image {
     width: 16px;
     height: 16px;
     background: transparent url("images/buttons.gif") scroll no-repeat 0 0;
 }
-
 .image-close-window {
-    background-position: -128px -16px;
+  background-position: -128px -16px;
 }
-
 a:hover .image-close-window {
-    background-position: -128px 0;
+  background-position: -128px 0;
 }
-
 .close-control .tpl-image {
     background-position: -128px -16px;
 }
-
 .active-close-control .tpl-image {
     background-position: -128px 0;
 }
-
 .refresh-control .tpl-image {
     background-position: -80px -16px;
 }
-
 .active-refresh-control .tpl-image {
     background-position: -80px 0;
 }
-
 .secure-mode-control .tpl-image {
     background-position: -144px -16px;
 }
-
 .active-secure-mode-control .tpl-image {
     background-position: -144px 0;
 }
-
 .history-control .tpl-image {
     background-position: -112px -16px;
 }
-
 .active-history-control .tpl-image {
     background-position: -112px 0;
 }
-
 .sound-control .sound-control-on {
     background-position: -48px -16px;
 }
-
 .active-sound-control .sound-control-on {
     background-position: -48px 0;
 }
-
 .sound-control .sound-control-off {
     background-position: -64px -16px;
 }
-
 .active-sound-control .sound-control-off {
     background-position: -64px 0;
 }
-
 .send-mail-control .tpl-image {
     background-position: -32px -16px;
 }
-
 .active-send-mail-control .tpl-image {
     background-position: -32px 0;
 }
-
 .redirect-control .tpl-image {
     background-position: -96px -16px;
 }
-
 .active-redirect-control .tpl-image {
     background-position: -96px 0;
 }
-
 .user-name-control {
     font-size: 14px;
     cursor: auto;
@@ -224,27 +182,22 @@ a:hover .image-close-window {
     line-height: 22px;
     margin-top: 12px;
 }
-
 .user-name-control-set {
     display: inline-block;
     vertical-align: middle;
     background-position: 0 -16px;
 }
-
 .user-name-control-set:hover {
     background-position: 0 0;
 }
-
 .user-name-control-change {
     display: inline-block;
     vertical-align: middle;
     background-position: -16px -16px;
 }
-
 .user-name-control-change:hover {
     background-position: -16px 0;
 }
-
 .user-name-control-input-background {
     width: 95px;
     height: 16px;
@@ -253,7 +206,6 @@ a:hover .image-close-window {
     display: inline-block;
     _background-color: transparent;
 }
-
 #user-name-control-input {
     width: 95px;
     height: 16px;
@@ -264,7 +216,6 @@ a:hover .image-close-window {
     font-size: 12px;
     font-family: Tahoma, sans-serif;
 }
-
 .user-name-control-prefix {
     padding-right: 10px;
 }
@@ -273,27 +224,21 @@ a:hover .image-close-window {
 #chat .background-left {
     background: #ffffff url("images/chatbgl.gif") scroll repeat-y 0 0;
 }
-
 #chat .background-right {
     background: transparent url("images/chatbgr.gif") scroll repeat-y 100% 0;
 }
-
 #chat .background-shady-center {
     background: transparent url("images/sdwbgc.png") scroll repeat-x 0 100%;
 }
-
 #chat .background-shady-left {
     background: transparent url("images/sdwbgl.png") scroll no-repeat 0 100%;
 }
-
 #chat .background-shady-right {
     position: relative;
     padding: 0 4px 40px;
     background: transparent url("images/sdwbgr.png") scroll no-repeat 100% 100%;
-    _zoom: 1;
-    /* IE6 fix */
+    _zoom: 1; /* IE6 fix */
 }
-
 #status-region {
     position: absolute;
     bottom: 20px;
@@ -301,18 +246,15 @@ a:hover .image-close-window {
     font-size: 12px;
     color: #333333;
 }
-
 .status {
     float: left;
     padding-right: 10px;
 }
-
 #avatar-region {
     float: right;
     height: 200px;
     background: #eeeeee url("images/avatarbg.gif") scroll repeat-y 100% 0;
 }
-
 .avatar {
     width: 100px;
     height: 100px;
@@ -322,18 +264,15 @@ a:hover .image-close-window {
     font-size: 0;
     overflow: hidden;
 }
-
 .default-avatar {
     background: transparent url("images/avatar.jpg") scroll no-repeat 50% 10px;
     width: 100px;
     height: 100px;
 }
-
 .avatar img {
     max-width: 100px;
     border: none;
 }
-
 #messages-region {
     height: 200px;
     min-height: 150px;
@@ -345,29 +284,24 @@ a:hover .image-close-window {
     line-height: 1.8em;
     color: #999;
 }
-
 #messages-region .message-info {
     font-size: 1.1em;
     color: #7baa0f;
 }
-
 #messages-region .message-hidden,
 #messages-region .message-event {
     font-size: 1.1em;
 }
-
 #messages-region .name-agent {
     font-size: 1.1em;
     font-weight: bold;
     color: #000;
 }
-
 #messages-region .name-user {
     font-size: 1.1em;
     font-weight: bold;
     color: #da251d;
 }
-
 #messages-region .message-agent,
 #messages-region .message-user {
     font-size: 1.1em;
@@ -378,17 +312,14 @@ a:hover .image-close-window {
 #message .background-center {
     background: #ffffff url("images/message.png") scroll repeat-x 0 -95px;
 }
-
 #message .background-left {
     background: transparent url("images/message.png") scroll no-repeat 0 0;
 }
-
 #message .background-right {
     height: 58px;
     padding: 14px 14px 23px;
     background: transparent url("images/message.png") scroll no-repeat 100% -190px;
 }
-
 #message-input {
     overflow: auto;
     width: 100%;
@@ -400,11 +331,12 @@ a:hover .image-close-window {
     font-family: Tahoma, sans-serif;
     border: 0 none;
     background: transparent;
-    resize: none;
-    /* disable resize textarea in Google Chrome, Safari and Firefox 4 */
+    resize: none; /* disable resize textarea in Google Chrome, Safari and Firefox 4 */
 }
 
 /* sending message area (#send) */
+#post-message {
+}
 #send-message, .submit-button {
     float: right;
     width: 190px;
@@ -418,17 +350,14 @@ a:hover .image-close-window {
     color: #495151;
     background: url("images/submit.gif") no-repeat 0 0 transparent;
 }
-
 #send-message:hover, .submit-button:hover {
     color: #000000;
     background: url("images/submit.gif") no-repeat -190px 0 transparent;
 }
-
 #predefined-wrapper {
     float: left;
     padding: 5px 0 0 3px;
 }
-
 #predefined {
     width: 200px;
 }
@@ -448,66 +377,52 @@ a:hover .image-close-window {
     position: relative;
     padding: 5px 14px;
     background: #ffffff url("images/logobg.gif") scroll repeat-x 0 100%;
-    _zoom: 1;
-    /* IE6 fix */
+    _zoom: 1; /* IE6 fix */
 }
-
 .headers-inwards-wrapper-common {
     background: #ffffff url("images/wndb.gif") scroll repeat-x 0 100%;
 }
-
 .headers-inwards-wrapper-left {
     background: transparent url("images/chatbgl.gif") scroll repeat-y 0 0;
 }
-
 .headers-inwards-wrapper-right {
     background: transparent url("images/chatbgr.gif") scroll repeat-y 100% 0;
 }
-
 .headers-inwards-wrapper-top {
     background: transparent url("images/wndt.gif") scroll repeat-x 0 0;
 }
-
 .headers-inwards-wrapper-top-left {
     background: transparent url("images/wndtl.gif") scroll no-repeat 0 0;
 }
-
 .headers-inwards-wrapper-top-right {
     background: transparent url("images/wndtr.gif") scroll no-repeat 100% 0;
 }
-
 .headers-inwards-wrapper-bottom-left {
     background: transparent url("images/wndbl.gif") scroll no-repeat 0 100%;
 }
-
 .headers-inwards-wrapper-bottom-right {
     position: relative;
     padding: 14px;
     background: transparent url("images/wndbr.gif") scroll no-repeat 100% 100%;
 }
-
 .headers-inwards-wrapper-bottom-right .buttons {
     top: 14px;
     position: absolute;
     right: 25px;
 }
-
 #headers {
     padding: 0 10px;
     background: #f1f2f2;
 }
-
 #content-wrapper {
     padding: 10px 14px 50px;
     background: transparent url("images/content.gif") scroll repeat-x 0 -2px;
 }
-
 #content-wrapper {
     font-weight: normal;
     font-size: 13px;
     font-family: Arial, sans-serif;
 }
-
 .info-message {
     padding: 0 60px 0 0;
     font-weight: normal;
@@ -520,23 +435,19 @@ a:hover .image-close-window {
     float: left;
     width: 49%;
 }
-
 .right {
     float: right;
     width: 49%;
 }
-
 .center {
     padding-top: 30px;
     text-align: center;
 }
-
 ul {
     margin: 10px 0;
     padding: 0 0 0 10px;
     list-style: none outside none;
 }
-
 ul li {
     margin: 0 0 4px;
     padding: 0 0 0 10px;
@@ -552,7 +463,6 @@ ul li {
     border-collapse: collapse;
     vertical-align: top;
 }
-
 .form td {
     margin: 0;
     padding: 5px;
@@ -560,18 +470,15 @@ ul li {
     border-collapse: collapse;
     vertical-align: top;
 }
-
 #content-wrapper #send-message {
     float: left;
     margin-top: 10px;
 }
-
 #content-wrapper input,
 #content-wrapper textarea,
 .headers-inwards-wrapper-bottom-right input {
     border: 1px solid #bbc4c4;
 }
-
 #ajax-loader {
     display: none;
     position: absolute;
@@ -592,29 +499,24 @@ ul li {
     color: #999999;
     background-color: #ffffff;
 }
-
 #invitation-messages-region .message-info {
     font-size: 1.1em;
     color: #7baa0f;
 }
-
 #invitation-messages-region .message-hidden,
 #invitation-messages-region .message-event {
     font-size: 1.1em;
 }
-
 #invitation-messages-region .name-agent {
     font-size: 1.1em;
     font-weight: bold;
     color: #000000;
 }
-
 #invitation-messages-region .name-user {
     font-size: 1.1em;
     font-weight: bold;
     color: #da251d;
 }
-
 #invitation-messages-region .message-agent,
 #invitation-messages-region .message-user {
     font-size: 1.1em;
@@ -625,20 +527,16 @@ ul li {
 .info-message .visitor {
     color: blue;
 }
-
 .info-message .operator {
     color: green;
 }
-
 #confirm-pane {
     width: 100%;
 }
-
 #confirm-pane .button-wrapper {
     width: 400px;
     margin: 140px auto 0;
 }
-
 #confirm-pane .submit-button {
     float: none;
     display: inline-block;
@@ -675,5 +573,3 @@ ul li {
         width: 388px;
     }
 }
-
-/*# sourceMappingURL=chat.css.map */
