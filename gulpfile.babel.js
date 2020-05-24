@@ -40,6 +40,10 @@ const
     src: './scss/*.scss',
     concat: 'chat.css',
     dest: '.',
+  },
+  iconConfig = {
+    src: './node_modules/bootstrap-icons/icons/*.svg',
+    dest: './icons',
   }
 
   ;
@@ -91,6 +95,11 @@ const compileStyle = () => {
     .pipe(gulp.dest(styleConfig.dest));
 };
 
+const compileIcons = () => {
+  return gulp.src(iconConfig.src)
+    .pipe(gulp.dest(iconConfig.dest));
+};
+
 const watchTemplate = (done) => {
   gulp.watch(templateConfig.src, compileTemplate);
   done();
@@ -106,13 +115,13 @@ const watchStyle = (done) => {
   done();
 }
 
-const compile = gulp.parallel(compileTemplate, compileScript, compileStyle)
+const compile = gulp.parallel(compileTemplate, compileScript, compileStyle, compileIcons)
 compile.description = 'compile all source files'
 
 const watch = gulp.parallel(watchTemplate, watchScript, watchStyle)
 watch.description = 'watch for changes to all source'
 
-const defaultTasks = gulp.parallel(watch)
+const defaultTasks = gulp.series(compile, watch)
 
 export {
   compile,
