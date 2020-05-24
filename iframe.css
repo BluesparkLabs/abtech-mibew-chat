@@ -20,11 +20,7 @@ iframe.mibew-chat-frame {
   overflow: hidden !important;
   z-index: 100 !important;
   border-radius: 10px !important;
-  -webkit-border-radius: 10px !important;
-  -moz-border-radius: 10px !important;
   box-shadow: 0 1px 1px 1px #ddd !important;
-  -moz-box-shadow: 0 1px 1px 1px #ddd !important;
-  -webkit-box-shadow: 0 1px 1px 1px #ddd !important;
 }
 
 div.mibew-chat-frame-toggle {
@@ -34,11 +30,7 @@ div.mibew-chat-frame-toggle {
   overflow: hidden !important;
   z-index: 100 !important;
   border-radius: 10px !important;
-  -webkit-border-radius: 10px !important;
-  -moz-border-radius: 10px !important;
   box-shadow: 0 1px 1px 1px #ddd !important;
-  -moz-box-shadow: 0 1px 1px 1px #ddd !important;
-  -webkit-box-shadow: 0 1px 1px 1px #ddd !important;
   cursor: pointer;
 }
 
