@@ -8,21 +8,19 @@
 
 {{! Chat header}}
 <div id="chat-header">
-    <div class="background-center"><div class="background-left"><div class="background-right">
-        {{! Chat controls region}}
-        <div id="controls-region"></div>
-    </div></div></div>
+  {{! Chat controls region}}
+  <div id="controls-region"></div>
 </div>
 
 {{! Chat region}}
 <div id="chat">
-    {{#unless user.isAgent}}
-    <div id="avatar-region"></div>
-    {{/unless}}
-    {{! Chat messages region}}
-    <div id="messages-region"></div>
-    {{! Chat status region}}
-    <div id="status-region"></div>
+  {{#unless user.isAgent}}
+  <div id="avatar-region"></div>
+  {{/unless}}
+  {{! Chat messages region}}
+  <div id="messages-region"></div>
+  {{! Chat status region}}
+  <div id="status-region"></div>
 </div>
 
 {{! Message form region}}
