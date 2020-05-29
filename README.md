@@ -9,17 +9,25 @@ with the following changes and additions:
 ## Installation
 
 1. Assumes Mibew 3.2.6 has already been installed and configured.
-2. Create a directory "abtech" inside `mibew/styles/chats/`.
-3. Download the latest [zipfile] from master branch on Github.
-4. Unzip the contents into `mibew/styles/chats/abtech/`.
-5. In the web browser visit the Chat theme preview page at:
-    `/mibew/operator/style/chat/preview`  and select "abtech" from the
-    dropdown to confirm it is properly installed.
-6. The "Select a style for your chat windows" dropdown should be set to
-    `abtech` on the settings page here: `/mibew/operator/settings`
-7. The "Company logo" field on the settings page should be __left blank__
-    because the default works as intended.
-8. Proceed to download and install the [A-B Tech Mibow Invitations theme].
+2. Download and unzip the latest [zipfile] from master branch on Github
+   inside a new folder on the server: `mibew/styles/chats/abtech/`.
+3. In the web browser, visit the Chat theme preview page at:
+   `/mibew/operator/style/chat/preview` and select "abtech"
+   from the dropdown to confirm it is properly installed.
+4. Select the theme:
+   * _During transition/testing_: leave the `default` theme enabled globally
+   at `/mibew/operator/settings` and generate a specific button code at
+   `/mibew/operator/button-code` with the `abtech` style selected in the
+   "Chat window style" dropdown.
+   * _For website re-launch_: set the `abtech` theme globally at 
+   `/mibew/operator/settings` in the "Select a style for your chat windows"
+   option dropdown.
+5. Update the logo. Set "Company logo" to the value
+   `/mibew/styles/chats/abtech/images/default-logo.svg` on the page 
+   `/mibew/operator/settings` to load the hi-res version of the A-B
+   Tech logo included with this theme. Note this will affect both the
+   default theme and the new abtech theme.
+6. Continue installation with the [A-B Tech Mibew Invitations theme].
 
 ## Changes from the default mibew chat widget styles
 
